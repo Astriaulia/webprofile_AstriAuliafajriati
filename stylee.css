@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(223, 148, 148);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 2px 2px 12px rbg(0, 0, 2);
+  padding: 0px 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  margin: 35px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-weight: 650;
+}
+
+nav ul li a:hover {
+  background-color: rgb(111, 112, 107);
+}
+
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(223, 148, 148);
+  color: black;
+}
+
+/* home*/
+.astri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 360px;
+}
+
+#home {
+  width: 100%;
+  position: relative;
+  height: 95vh;
+}
+.home p {
+  line-height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  width: 400px;
+}
+
+/* About*/
+.about {
+  height: 50vh;
+  background-color: rgb(235, 211, 211);
+  padding: 30px;
+  margin: 30px;
+}
+.foto {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 5%;
+  padding: 30px;
+  transform: translateX(1%);
+}
+
+.about {
+  line-height: 25px;
+}
+
+.about p {
+  text-align: justify;
+  left: 30%;
+  width: 500px;
+  right: 10%;
+  position: absolute;
+  padding: 40px;
+  margin: 12px;
+}
+
+.about p:nth-child(1) {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 20px;
+  line-height: 1.9px;
+}
+
+.row {
+  display: flex;
+  margin: 20px;
+  padding: 1px;
+}
+
+.row.column h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.column li {
+  text-align: left;
+  list-style-type: circle;
+  font-size: 14px;
+  list-style-position: outside;
+}
+.column {
+  flex: 25px;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(235, 211, 211);
+}
+
+/*skill*/
+
+.skill {
+  height: 25vh;
+  background-color: rgb(235, 211, 211);
+  padding: 2% 10% 10%;
+}
+
+.skill-desc {
+  margin: 5px 35x;
+}
+
+.skill-desc p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-align: left;
+}
+.box-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.box-1,
+.box-2 {
+  width: 450px;
+  height: 150px;
+  box-shadow: 2px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 5px;
+  background-color: rgb(223, 148, 148);
+}
+
+.box-1 span,
+.box-2 span {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  background-color: rgb(235, 211, 211);
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px 5px;
+}
+
+.box-1 ul,
+.box-2 ul {
+  list-style-type: square;
+  list-style-position: outside;
+}
+
+/*contac*/
+.contac {
+  height: 30vh;
+  background-color: rgb(235, 211, 211);
+  padding: 2% 10% 10%;
+}
+.contac-des {
+  margin: 5px 35px;
+}
+
+.contac-des p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.contac-des p:nth-child(1) {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  letter-spacing: 10px;
+  font-size: 20px;
+  line-height: 1.9px;
+}
+.row-contac {
+  display: flex;
+  margin: 20px;
+  padding: 1px;
+  height: 70px;
+  width: 50px;
+  align-items: center;
+}
+
+.columnn p {
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.columnn {
+  flex: 5px;
+  padding: 0px;
+  margin: 10px;
+  background-color: rgb(235, 211, 211);
+  justify-content: center;
+  width: 100px;
+  height: 0px;
+}
+
+i {
+  justify-content: space-around;
+  margin: 5px;
+  width: 500px;
+  transform: translateX(85%);
+}
+
+footer {
+  height: 80px;
+  background-color: rgb(235, 211, 211);
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
